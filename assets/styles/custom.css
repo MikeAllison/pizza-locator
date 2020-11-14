@@ -1,0 +1,126 @@
+@media (max-width: 767px) {
+  #heading {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+  }
+  #city-state-tbox {
+    text-align: center;
+  }
+  #search-btn {
+    width: 100%;
+  }
+  #location-btn {
+    width: 100%;
+  }
+  #place-modal-website, #place-modal-address, #place-modal-phone-num {
+    display: block;
+  }
+  .city-state-heading {
+    font-size: 0.8em;
+  }
+  .alert {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-col {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .alert-col {
+    padding-right: 0;
+  }
+}
+
+#city-state-tbox, #search-btn, #location-btn {
+  margin-bottom: 10px;
+}
+
+#place-modal-distance-warning {
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 1.6;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  color: #d35400;
+  font-size: 0.8em;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+}
+
+.hovered, .clicked {
+  background-color: #f9f9f9 !important;
+}
+
+.city-state-heading {
+  color: #555;
+}
+
+.form-control {
+  font-size: 0.85em;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  font-size: 0.85em;
+  padding: 10px 15px;
+}
+
+.nav-tabs {
+  margin: 10px 0 20px 0;
+}
+
+.nav-tabs li a:hover {
+  background-color: #fff;
+}
+
+.list-group-item {
+  overflow-x: auto;
+}
+
+.badge {
+  margin-top: 3px;
+  font-size: 0.67em;
+}
+
+.modal-body {
+  overflow-x: auto;
+  font-size: 0.9em;
+}
+
+.modal-field,
+.modal-distance-info li strong,
+.modal-hours-open li span strong {
+  padding-right: 4px;
+}
+
+.modal-distance-info, .modal-hours-open {
+  font-size: 0.9em;
+}
+
+.modal-distance-info li, .modal-hours-open li {
+  padding-bottom: 5px;
+}
+
+.current-day {
+  margin: 5px;
+}
+
+.current-day span {
+  padding: 5px;
+  color: #fff;
+  background-color: #1ABC9C;
+} 
